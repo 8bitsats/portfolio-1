@@ -2,5 +2,9 @@
   "name": "@sonarwatch/portfolio-plugins",
   "version": "0.11.233",
   "type": "commonjs",
-  "generators": "./generators.json"
+  "generators": "./generators.json",
+  "dependencies": {
+    "swc": "^1.0.11",
+    "swc-node": "^1.0.0"
+  }
 }
