@@ -1,0 +1,22 @@
+{
+  "name": "@org/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nx dev",
+    "build": "nx build",
+    "start": "nx start",
+    "test": "nx test"
+  },
+  "private": true,
+  "dependencies": {
+    "@nx/next": "19.1.1"
+  },
+  "devDependencies": {
+    "@nx/workspace": "19.1.1",
+    "nx": "19.1.1"
+  },
+  "nx": {
+    "includedScripts": []
+  }
+}
