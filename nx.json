@@ -3,16 +3,15 @@
     "default": {
       "runner": "nx/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build"]
+        "cacheableOperations": ["build"],
+        "accessToken": "YmJjZjMwMmItZGUzOS00OWYyLWJjNGEtOTM4OTc1MDQzNzg1fHJlYWQtd3JpdGU="
       }
     }
   },
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build"]
-    },
+    "build": { "dependsOn": ["^build"] },
     "lint": {
       "inputs": [
         "default",
@@ -24,9 +23,5 @@
       "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
     }
   },
-  "pluginsConfig": {
-    "@nx/js": {
-      "analyzeSourceFiles": true
-    }
-  }
+  "pluginsConfig": { "@nx/js": { "analyzeSourceFiles": true } }
 }
