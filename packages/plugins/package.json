@@ -4,6 +4,7 @@
   "type": "commonjs",
   "generators": "./generators.json",
   "dependencies": {
+    "nx": "^19.1.1",
     "swc": "^1.0.11",
     "swc-node": "^1.0.0"
   }
